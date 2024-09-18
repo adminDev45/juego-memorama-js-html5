@@ -15,7 +15,7 @@
     Ayuda:      https://parzibyte.me/blog/contrataciones-ayuda/
     Contacto:   https://parzibyte.me/blog/contacto/
 */
-const MAXIMOS_INTENTOS = 8, // Intentos máximos que tiene el jugador
+const MAXIMOS_INTENTOS = 100, // Intentos máximos que tiene el jugador
     COLUMNAS = 4, // Columnas del memorama
     SEGUNDOS_ESPERA_VOLTEAR_IMAGEN = 1, // Por cuántos segundos mostrar ambas imágenes
     NOMBRE_IMAGEN_OCULTA = "./img/question.png"; // La imagen que se muestra cuando la real está oculta
@@ -30,6 +30,15 @@ new Vue({
             "./img/oveja.jpg",
             "./img/perro.jpg",
             "./img/gato.jpg",
+            "./img/delfin.jpg",
+            "./img/pinguino.jpg",
+            "./img/paloma.jpg",
+            "./img/oso.jpg",
+            "./img/pollo.jpg",
+            "./img/mapache.jpg",
+            "./img/ciervo.jpg",
+            "./img/pato.jpg"
+
         ],
         memorama: [],
         // Útiles para saber cuál fue la carta anteriormente seleccionada
